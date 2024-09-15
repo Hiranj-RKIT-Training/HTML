@@ -209,7 +209,7 @@ The for attribute of the <label> tag should be equal to the id attribute of the 
 
 ### SelectBox
 
-The <select> element defines a drop-down list:
+The <select> element defines a drop-down list : 
 
 ```
 <label for="cars">Choose a car:</label>
@@ -219,7 +219,6 @@ The <select> element defines a drop-down list:
   <option value="fiat">Fiat</option>
   <option value="audi">Audi</option>
 </select>
-
 ```
 The <option> element defines an option that can be selected.
 
