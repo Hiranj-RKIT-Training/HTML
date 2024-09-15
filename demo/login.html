@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #loginForm{
+            align-self: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="loginForm">
+        <form  action="./home.html" >
+            <fieldset>
+                <legend>Login</legend>
+                <label for="usrEmail">Email :</label>
+                <input type="email" name="email" id="usrEmail" required>
+                <br> <br>
+                <label for="usrEmail">Password : </label>
+                <input type="password" name="password" id="usrPassword" required>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+        <a href="./signup.html">or Signup</a>
+    </div>
+</body>
+</html>

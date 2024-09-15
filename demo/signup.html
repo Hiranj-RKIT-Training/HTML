@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+          #singupForm{
+            align-self: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="singupForm">
+        <form action="./home.html">
+            <fieldset>
+                <legend>Signup</legend>
+                <label for="usrEmail">Email :</label>
+                <input type="email" name="email" id="usrEmail" required>
+                <br> <br>
+                <label for="usrEmail">Password : </label>
+                <input type="password" name="password" id="usrPassword" required>
+                <br><br>
+                <label for="cnfrmPassword">Confirm Password : </label>
+                <input type="password" name="cnfrmPassword" id="cnfrmPassword" required>
+                <br><br>
+                <input type="submit" name="Signup"  id="submit">
+            </fieldset>
+        </form>
+        <a href="./login.html">or login</a>
+</body>
+</html>
