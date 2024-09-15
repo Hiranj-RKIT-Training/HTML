@@ -219,6 +219,7 @@ The <select> element defines a drop-down list:
   <option value="fiat">Fiat</option>
   <option value="audi">Audi</option>
 </select>
+
 ```
 The <option> element defines an option that can be selected.
 
