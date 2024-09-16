@@ -38,42 +38,21 @@ Check out the live version of the project here: [Live Demo](https://hiranj-rkit-
 | `<header>`     | Defines a header for a document or section       | -                                    |
 | `<footer>`     | Defines a footer for a document or section       | -                                    |
 | `<section>`    | Defines a section in a document                   | -                                    |
-| `<article>`    | Defines an article                               | -                                    |
-| `<aside>`      | Defines content aside from the content it is placed in | -                                    |
 | `<nav>`        | Defines navigation links                         | -                                    |
 | `<figure>`     | Defines self-contained content, like illustrations or diagrams | -                                    |
 | `<figcaption>` | Defines a caption for a `<figure>` element        | -                                    |
-| `<details>`    | Defines additional details that the user can view or hide | `open`                               |
-| `<summary>`    | Defines a heading for a `<details>` element       | -                                    |
-| `<dialog>`     | Defines a dialog box or interactive component     | `open`                               |
-| `<source>`     | Defines multiple media resources for elements like `<video>` and `<audio>` | `src`, `type`                        |
-| `<track>`      | Provides text tracks for `<video>` and `<audio>` elements | `src`, `kind`, `label`, `srclang`    |
 | `<iframe>`     | Defines an inline frame                           | `src`, `width`, `height`, `name`     |
-| `<object>`     | Defines an embedded object, like a flash animation | `data`, `type`, `width`, `height`   |
 | `<embed>`      | Defines an embedded object, like multimedia content | `src`, `type`, `width`, `height`    |
-| `<param>`      | Defines parameters for an `<object>` element      | `name`, `value`                      |
 | `<map>`        | Defines an image map                             | -                                    |
 | `<area>`       | Defines a clickable area within an image map      | `shape`, `coords`, `href`, `alt`     |
-| `<bdo>`        | Overrides the current text direction              | `dir`                                |
-| `<bdi>`        | Isolates a span of text that might be formatted in a different direction | `dir`                                |
-| `<cite>`       | Defines the title of a work                        | -                                    |
-| `<dfn>`        | Defines a term that is defined in the document    | -                                    |
-| `<kbd>`        | Defines keyboard input                            | -                                    |
-| `<s>`          | Defines text that is no longer correct or relevant | -                                    |
-| `<samp>`       | Defines sample output from a computer program      | -                                    |
 | `<small>`      | Defines smaller text                              | -                                    |
 | `<strong>`     | Defines important text                            | -                                    |
 | `<sub>`        | Defines subscript text                           | -                                    |
 | `<sup>`        | Defines superscript text                         | -                                    |
-| `<time>`       | Defines a specific time or date                   | `datetime`                           |
 | `<mark>`       | Defines text that should be highlighted           | -                                    |
-| `<ruby>`       | Defines a ruby annotation (for East Asian typography) | -                                    |
-| `<rt>`         | Defines an explanation or pronunciation of a `<ruby>` annotation | -                                    |
-| `<rp>`         | Defines what to show for browsers that do not support `<ruby>` annotations | -                                    |
 | `<b>`          | Defines bold text                                | -                                    |
 | `<i>`          | Defines italic text                              | -                                    |
 | `<u>`          | Defines underlined text                          | -                                    |
-| `<wbr>`        | Defines where a line break should occur (in text) | -                                    |
 
 ## Notes:
 - This table includes a broad range of HTML tags with their most frequently used attributes.
