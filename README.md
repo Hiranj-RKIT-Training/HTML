@@ -188,7 +188,7 @@ The for attribute of the <label> tag should be equal to the id attribute of the 
 
 ### SelectBox
 
-The <select> element defines a drop-down list:
+The <select> element defines a drop-down list : 
 
 ```
 <label for="cars">Choose a car:</label>
