@@ -54,10 +54,6 @@ Check out the live version of the project here: [Live Demo](https://hiranj-rkit-
 | `<i>`          | Defines italic text                              | -                                    |
 | `<u>`          | Defines underlined text                          | -                                    |
 
-## Notes:
-- This table includes a broad range of HTML tags with their most frequently used attributes.
-- Attributes listed are common but not exhaustive; other attributes may be available depending on the tag.
-
 ## 1.1 what is HTML , use of html , about different web browser
 
 ### What is HTML?
