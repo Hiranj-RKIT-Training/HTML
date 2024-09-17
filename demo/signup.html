@@ -20,17 +20,35 @@
 <body>
     <div id="singupForm">
         <form action="./home.html">
-            <fieldset>
+            <fieldset style=" display: flex; flex-direction: column;">
                 <legend>Signup</legend>
+                <label for="usrFirstName"> First Name : </label>
+                <input type="text" name="firstName" id="usrFirstName">
+                <label for="usrLastName"> Last Name : </label>
+                <input type="text" name="lastName" id="usrLastName">
                 <label for="usrEmail">Email :</label>
                 <input type="email" name="email" id="usrEmail" required>
-                <br> <br>
+                Gender :
+                <div>
+                    <input type="radio" name="male" id="usrMale" value="Male">
+                    <label for="usrMale">Male </label>
+                </div>
+                <div>
+                    <input type="radio" name="female" id="usrFemale" value="female">
+                    <label for="usrFemale">Female </label>
+                </div>
+                <label> City : </label>
+                <select name="cities" id="usrCity">
+                    <option value="j    amnagar"> Jamnagar</option>
+                    <option value="rajkot"> Rajkot</option>
+                    <option value="surat"> Surat</option>
+                    <option value="dwarka"> Dwarka</option>
+                </select>
                 <label for="usrEmail">Password : </label>
                 <input type="password" name="password" id="usrPassword" required>
-                <br><br>
                 <label for="cnfrmPassword">Confirm Password : </label>
                 <input type="password" name="cnfrmPassword" id="cnfrmPassword" required>
-                <br><br>
+                <br>
                 <input type="submit" name="Signup" id="submit">
             </fieldset>
         </form>
